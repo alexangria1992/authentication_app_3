@@ -5,6 +5,7 @@ import db from "./config/Database.js";
 import dotenv from "dotenv";
 import router from "./routes/index.js";
 
+dotenv.config();
 const app = express();
 
 // Db Connection
