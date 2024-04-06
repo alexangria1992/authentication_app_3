@@ -2,6 +2,7 @@ import express from "express";
 import colors from "colors";
 import db from "./config/Database.js";
 // import Users from "./models/UserModel.js";
+import dotenv from "dotenv";
 import router from "./routes/index.js";
 
 const app = express();
