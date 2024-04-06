@@ -1,1 +1,19 @@
 GET http://localhost:5000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsIm5hbWUiOiJKb2huIiwiZW1haWwiOiJqb2huQGdtYWlsLmNvbSIsImlhdCI6MTcxMjM3NzYyOSwiZXhwIjoxNzEyMzc3NjQ5fQ.K5TzynnLivSwHatDoP2C_qPOOULWSrJrPqsEFogGby8
+# GET http://localhost:5000/users
+# Content-Type: application/json 
+# {
+#     "name": "John Two",
+#     "email": "john2@gmail.com",
+#     "password": "123456",
+#     "confPassword": "123456"
+# }
+
+###
+POST http://localhost:5000/login
+Content-Type: application/json 
+
+{
+    "email": "john@gmail.com",
+    "password": "123456"
+}
